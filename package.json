@@ -1,0 +1,37 @@
+{
+  "name": "anno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afader/anno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afader/anno/issues"
+  },
+  "homepage": "https://github.com/afader/anno#readme",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "express": "^4.13.3",
+    "http-proxy": "^1.12.0",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "^0.14.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
